@@ -1,0 +1,193 @@
+/* navbar */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .title {
+        font-size: 40px;
+        padding-top: 40px;
+        font-family: Georgia, serif;
+        font-weight: 500;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+    }
+    .title1 {
+        font-size: 20px;
+        padding-top: 10px;
+        font-family: Georgia, serif;
+        font-weight: 500;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
+
+
+/* Project */
+
+.title {
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: Georgia, serif;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.title1 {
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: Georgia, serif;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+.line_Under {
+    width: auto;
+    max-width: 87%;
+}
+
+.main_Info {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* .phase1 {
+    line-height: 8pt;
+} */
+
+.main_title_Edu {
+    font-size: 16px;
+    padding-top: 10px;
+    /* font-family: Georgia, serif; */
+    font-weight: 500;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* general styling */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+}
+
+
+/* footer */
+
+.footer {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a {
+    color: blue;
+}
+
+
+/* /asfwfff */
+
+.phase2 a {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 6%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}

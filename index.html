@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+
+
+<body>
+    <!-- nav bar -->
+
+    <div class="navbae">
+        <div class="topnav" id="myTopnav">
+            <a href="" class="active">
+                Parth Patel
+            </a>
+            <a href="/index.html">Home</a>
+            <a href="/project.html">Project</a>
+            <a href="/profile.html">Profile</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/skill.html">Skill</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Biography -->
+    <div class="container">
+        <div class="title">
+            Biography
+        </div>
+        <hr class="line_Under">
+    </div>
+
+
+
+    <!-- card -->
+    <div class="card_cont">
+        <div class="card">
+            <div class="card-header" style="background-image: url(/parth.jpeg)">
+            </div>
+
+            <div class="card-body">
+                <h2 class="name">Parth Patel</h2>
+                <h4 class="job-title">Software Engineer</h4>
+                <div class="bio">I was completed the Diploma Engineering in Information Technology with First Class Distriction from Government Polytechnic Gandhinagar, in 2020.<br>Currently I am studying in the Governtment Engineering College, Modasa. and Currently i
+                    am intern in JavaScript (Backend Web Developer) at ScaleTech Solution Ahmedabad.</div>
+                <div class="social-accounts">
+                    <a href="https://www.linkedin.com/in/mrcodder/" target="_blank"><img src="/index_linkdin.png" alt=""><span class="sr-only">Linkdin</span></a>
+                    <a href="https://www.instagram.com/_mr__codder_/" target="_blank"><img src="/index_insta.png" alt=""><span class="sr-only">Github</span></a>
+                    <a href="https://github.com/ParthRoot" target="_blank"><img src="/index_github.png" alt=""><span class="sr-only">Instagram</span></a>
+                </div>
+            </div>
+            <div class="card-footer">
+                Thanks for stopping by... Enjoy browsing the site.
+            </div>
+        </div>
+    </div>
+
+    <!-- Biography -->
+    <div class="container">
+        <div class="title">
+            Education & Academic
+        </div>
+        <hr class="line_Under">
+    </div>
+
+    <!-- cards -->
+    <div class="row">
+        <div class="column">
+            <div class="card1">
+                <h3>B.E. Running</h3>
+                <p>Information Technology</p>
+                <p>Gujarat Technological Univercity</p>
+                <p>Government Engineering College, Modasa</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card1">
+                <h3>Diploma Engineering 2020</h3>
+                <p>Information Technology</p>
+                <p>Gujarat Technological Univercity</p>
+                <p>Government Polytechnic, Gandhinagar</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card1">
+                <h3>SSC 2017</h3>
+                <br>
+                <p>Gujarat Secondary Education Board</p>
+                <p>Patel M.M. HighSchool, Itadara</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card1">
+                <h3>Junior Software Engineer</h3>
+                <br>
+                <p>JavaScript Backend Web Developer</p>
+
+                <p>ScaleTech Solutions</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <p class="float-right"><a style="color: blue;" href="#">Back to top</a></p>
+    </div>
+
+
+    <!-- for navbar -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
